@@ -1,8 +1,0 @@
-import streamlit as st
-from mrp_engine import run_mrp
-
-st.title("MRP Tool")
-
-if st.button("Correr MRP"):
-    df = run_mrp()
-    st.dataframe(df)
